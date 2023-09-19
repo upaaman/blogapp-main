@@ -52,20 +52,20 @@ export default function Sidebar({ children }) {
                     </div>
                     <div className='flex items-center space-x-5'>
                         <div className='relative'>
-                            <AiFillBell className='text-[#7879F1] text-[35px]' />
-                            <span className='bg-[#5ECFFF] absolute left-3 bottom-4 text-black w-[18px] h-[18px] text-[11px] rounded-full flex justify-center items-center'>16</span>
+                            <AiFillBell className='text-[#7879F1] text-[30px]' />
+                            <span className='bg-[#5ECFFF] absolute left-4 bottom-4 text-black w-[18px] h-[18px] text-[11px] rounded-full flex justify-center items-center'>16</span>
                         </div>
                         <div className='relative'>
-                            <AiFillBell className='text-[#7879F1] text-[35px]' />
-                            <span className='bg-[#5ECFFF] absolute left-3 bottom-4 text-black w-[18px] h-[18px] text-[11px] rounded-full flex justify-center items-center'>16</span>
+                            <SlCalender className='text-[#7879F1] text-[30px]' />
+                            <span className='bg-[#5ECFFF] absolute left-5 bottom-4 text-black w-[18px] h-[18px] text-[11px] rounded-full flex justify-center items-center'>5</span>
                         </div>
                         <div className='relative'>
-                            <AiFillBell className='text-[#7879F1] text-[35px]' />
-                            <span className='bg-[#5ECFFF] absolute left-3 bottom-4 text-black w-[18px] h-[18px] text-[11px] rounded-full flex justify-center items-center'>16</span>
+                            <FaFileInvoiceDollar className='text-[#7879F1] text-[30px]' />
+                            <span className='bg-[#5ECFFF] absolute left-5 bottom-4 text-black w-[18px] h-[18px] text-[11px] rounded-full flex justify-center items-center'>2</span>
                         </div>
                         <div className='relative'>
-                            <AiFillBell className='text-[#7879F1] text-[35px]' />
-                            <span className='bg-[#5ECFFF] absolute left-3 bottom-4 text-black w-[18px] h-[18px] text-[11px] rounded-full flex justify-center items-center'>16</span>
+                            <AiFillShop className='text-[#7879F1] text-[30px]' />
+                            <span className='bg-red-600 absolute left-5 bottom-4 text-black w-[18px] h-[18px] text-[11px] rounded-full flex justify-center items-center'>!</span>
                         </div>
                     </div>
                     <div>
